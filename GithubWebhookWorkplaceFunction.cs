@@ -15,7 +15,7 @@ namespace GithubWorkplaceAzure
         [FunctionName("GithubWebhookWorkplaceFunction")]
         public static async Task<HttpResponseMessage> Run([HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)]HttpRequestMessage req, ILogger log)
         {
-            log.LogInformation("C# HTTP trigger function processed a request.");
+            log.LogInformation("C# HTTP trigger webhook function processed a request.");
 
             // Get request body
             dynamic data = await req.Content.ReadAsAsync<object>();
