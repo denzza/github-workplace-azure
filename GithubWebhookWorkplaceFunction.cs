@@ -46,7 +46,7 @@ namespace GithubWorkplaceAzure
 
                 var parametters = new Dictionary<string, string>
                 {
-                    { "access_token", "DQVJ0WTZAkeWcza0h4eVlTeFRPZAkVMaEVyajAtbDlXS3dBZAnM0QzhnUTJkYXh6ck5oc3dwLWYxNXBwVlVRQ1BYVDdpSVRfNy1IX0hBbUduNGtMREw5WDlMY0tYU016ZAzA0WjlHUFFHLTY3Qy0tTXViMURNb09KMTZAXcFhRM1BrY3E3eVBfNXRrLUxCYXlxcTJIT3FvV3dUV2RRYzRFa0NJMDR0QjcxUUlUQTRHZAFhlUVBpRUF6TnZAtQlp0YXJ4LWpGQl9GX3B3" },
+                    { "access_token", "DQVJ0WTZAkeWcza0h4eVlTeFRP" },
                     { "message", message }
                 };                
 
